@@ -1,0 +1,290 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc29:version{3cec427c-1b0e-4d48-a90a-0436f33a6041} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						name = "fishtank_door_collapsing"
+						filename = "models/fishtank_door_collapsing.fbx"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = 
+						[
+							{
+								from = "materials/hotspots/wood_painted_b_hs.vmat.001.vmat"
+								to = "materials/hotspots/wood_painted_b_hs.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+				]
+			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsHullFile"
+						name = "fishtank_door_collapsing_collision1"
+						parent_bone = "door_1"
+						surface_prop = "default"
+						collision_tags = "solid"
+						recenter_on_parent_bone = false
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						filename = "models/fishtank_door_collapsing_collision1.fbx"
+						import_scale = 1.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "SingleHull"
+						optimization_algorithm = "QEM"
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "PhysicsHullFile"
+						name = "fishtank_door_collapsing_collision2"
+						parent_bone = "door_2"
+						surface_prop = "default"
+						collision_tags = "solid"
+						recenter_on_parent_bone = false
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						filename = "models/fishtank_door_collapsing_collision2.fbx"
+						import_scale = 1.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "SingleHull"
+						optimization_algorithm = "QEM"
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "PhysicsHullFile"
+						name = "fishtank_door_collapsing_collision3"
+						parent_bone = "door_3"
+						surface_prop = "default"
+						collision_tags = "solid"
+						recenter_on_parent_bone = false
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						filename = "models/fishtank_door_collapsing_collision3.fbx"
+						import_scale = 1.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "SingleHull"
+						optimization_algorithm = "QEM"
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "PhysicsHullFile"
+						name = "fishtank_door_collapsing_collision4"
+						parent_bone = "door_4"
+						surface_prop = "default"
+						collision_tags = "solid"
+						recenter_on_parent_bone = false
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						filename = "models/fishtank_door_collapsing_collision4.fbx"
+						import_scale = 1.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "SingleHull"
+						optimization_algorithm = "QEM"
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+			{
+				_class = "AnimationList"
+				children = 
+				[
+					{
+						_class = "AnimFile"
+						name = "open"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/fishtank_door_collapsing.fbx"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						take = 10
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "close"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/fishtank_door_collapsing.fbx"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						take = 10
+						reverse = true
+					},
+					{
+						_class = "AnimFile"
+						name = "close_idle"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/fishtank_door_collapsing.fbx"
+						start_frame = -1
+						end_frame = 0
+						framerate = -1.0
+						take = 10
+						reverse = true
+					},
+					{
+						_class = "AnimFile"
+						name = "open_idle"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/fishtank_door_collapsing.fbx"
+						start_frame = 19
+						end_frame = -1
+						framerate = -1.0
+						take = 10
+						reverse = true
+					},
+				]
+				default_root_bone_name = ""
+			},
+			{
+				_class = "AttachmentList"
+				children = 
+				[
+					{
+						_class = "Attachment"
+						name = "door1"
+						parent_bone = "door_1"
+						relative_origin = [ 12.0, 51.0, 3.5 ]
+						relative_angles = [ 0.0, 0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "door2"
+						parent_bone = "door_2"
+						relative_origin = [ 12.0, 51.0, 3.5 ]
+						relative_angles = [ 0.0, 0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "door3"
+						parent_bone = "door_3"
+						relative_origin = [ -12.0, 51.0, 3.5 ]
+						relative_angles = [ 0.0, 0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "door4"
+						parent_bone = "door_4"
+						relative_origin = [ -12.0, 51.0, 3.5 ]
+						relative_angles = [ 0.0, 0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+				]
+			},
+		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		anim_graph_name = "models/doors/dynamic_door_generic.vanmgrph"
+		base_model_name = ""
+	}
+}

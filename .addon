@@ -1,0 +1,18 @@
+{
+  "Title": "Fishtank House",
+  "Type": "content",
+  "Org": "local",
+  "Ident": "fishtank_house",
+  "Tags": null,
+  "Schema": 1,
+  "HasAssets": true,
+  "AssetsPath": "",
+  "ResourcePaths": null,
+  "HasCode": false,
+  "CodePath": null,
+  "PackageReferences": [],
+  "EditorReferences": null,
+  "Metadata": {
+    "ProjectTemplate": null
+  }
+}
